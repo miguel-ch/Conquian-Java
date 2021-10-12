@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package conquian;
+package conquian.jugadores;
+
+import conquian.cartas.Carta;
 
 /**
  *
  * @author Miguel
  */
-public class Empezo {
+public class TriadaBuilder {
     
+    public void validar(){
+        
+    }
 }

@@ -9,15 +9,6 @@ package conquian;
  *
  * @author Miguel
  */
-public class Conquian {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
-        Juego juego = new Juego();
-        juego.iniciar();
-    }
-
+public class JugadorBuilder {
+    
 }

@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package conquian;
+package conquian.cartas;
 
 /**
  *
  * @author Miguel
  */
-public abstract class EstadoJuego {
+public class CartaBasto extends Carta{
     
-    private Juego juego;
-    
-    public abstract void accion();
+    public CartaBasto(int valor) {
+        super(valor, "Basto");
+    }   
 }

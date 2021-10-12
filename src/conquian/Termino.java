@@ -9,10 +9,5 @@ package conquian;
  *
  * @author Miguel
  */
-public class Termino extends EstadoJuego{
-
-    @Override
-    public void jugar() {
-        return;
-    }
+public class Termino {
 }

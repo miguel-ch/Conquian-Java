@@ -5,19 +5,19 @@
  */
 package conquian;
 
+import conquian.cartas.Carta;
+
 /**
  *
  * @author Miguel
  */
-public class Conquian {
+public class IntercambioState extends EstadoJuego{
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
-        Juego juego = new Juego();
-        juego.iniciar();
+    Carta cartaJug1;
+    Carta cartaJug2;
+    
+    @Override
+    public void accion() {
+        
     }
-
 }
